@@ -9,8 +9,6 @@
 
     {{content-for "head"}}
 
-    <link rel="stylesheet" href="{{rootURL}}app.css">
-
     {{content-for "head-footer"}}
   </head>
   <body>
@@ -20,5 +18,9 @@
     <script src="{{rootURL}}app.js"></script>
 
     {{content-for "body-footer"}}
+    
+    <!-- adding the glitch remix & view source button and style -->
+    <footer id="gWidget"></footer>
+    <script src="https://widget.glitch.me/widget.min.js"></script>
   </body>
 </html>
